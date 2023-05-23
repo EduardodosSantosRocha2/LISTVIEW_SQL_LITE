@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+
+        android:textColor="#000000"
+        android:background="#816A6A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+
+        <EditText
+
+            android:id="@+id/editText01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:gravity="center"
+            android:hint="CODIGO: "
+            android:textColor="#000000"
+
+            />
+
+        <EditText
+
+            android:id="@+id/editText02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:gravity="center"
+            android:hint="MODELO: "
+            android:textColor="#00ff04"
+            />
+
+
+        <EditText
+
+            android:id="@+id/editText03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:hint="MARCA: "
+            android:textColor="#000000"
+            />
+
+
+
+
+        <EditText
+
+            android:id="@+id/editText04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:hint="ANO: "
+            android:textColor="#000000"
+            />
+
+
+
+
+
+        <TextView
+
+            android:id="@+id/textView02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:gravity="center"
+            android:hint=" "
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+
+
+
+
+        <Button
+
+            android:id="@+id/button01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ADD"
+            android:textColor="#000000"
+            android:onClick="ADD"
+            />
+
+
+
+
+
+
+        <Button
+
+            android:id="@+id/button02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Consultar dados"
+            android:textColor="#000000"
+            android:onClick="Consultardados"
+            />
+
+
+
+        <EditText
+
+            android:id="@+id/editText777"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:hint="Digite o nome do dado a ser alterado: "
+            android:textColor="#000000"
+            />
+
+        <Button
+
+            android:id="@+id/button03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Alterar dados"
+            android:textColor="#000000"
+            android:onClick="Alterardados"
+            />
+
+
+        <Button
+
+            android:id="@+id/button04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Deletar"
+            android:textColor="#000000"
+            android:onClick="deletar"
+            />
+
+
+
+        <Button
+
+            android:id="@+id/button08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="PRINTAR"
+            android:textColor="#000000"
+            android:onClick="printar"
+            />
+
+        <ListView
+            android:id="@+id/listView01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
